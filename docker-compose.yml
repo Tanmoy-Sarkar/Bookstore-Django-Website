@@ -5,7 +5,7 @@ services:
     build: .
     command: python /code/manage.py runserver 0.0.0.0:8000
     environment:
-      - SECRET_KEY=d#&-933$o%(%l_dy1(z-g#^74a7t4@(d_=oe4_e%8324=oln9t
+      - "SECRET_KEY=d#&-933$o%(%l_dy1(z-g#^74a7t4@(d_=oe4_e%8324=oln9t"
       - DEBUG=1
     volumes:
       - .:/code
